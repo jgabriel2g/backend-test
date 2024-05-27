@@ -312,9 +312,9 @@ Entonces, en mi enfoque para una aplicacion de E-Commerce, pensandola en el mejo
 
 ### Nomeclatura
 Para mantener una organización clara y consistente, utilizo la siguiente convención de nombres para los servicios:
-- Microservicios: ms-<nombre-del-servicio>
+- Microservicios: ms-{nombre-del-servicio}
   - Ejemplo: ms-auth, ms-product, ms-order
-- Gateways: gateway-<nombre-del-gateway>
+- Gateways: gateway-{nombre-del-gateway}
   - Ejemplo: gateway-api
 
 
