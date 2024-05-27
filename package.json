@@ -1,0 +1,24 @@
+{
+  "name": "backend-test",
+  "version": "1.0.0",
+  "description": "This project is for the backend and frontend of the technical test for BeMaster.",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "author": "Jesus Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "4.19.2"
+  }
+}
